@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About KIAPI
-subtitle: Korea Intelligent Automotive Parts Promotion Institute
+title: About Our Team
+subtitle: Autonomous Vehicle Team
 ---
 
 ### Purpose of Establishment
