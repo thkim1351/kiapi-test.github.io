@@ -6,10 +6,10 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
 
 ## Infra Dataset
 
-### Download#1 PVD Data(19.7M)   : [Download](http://gofile.me/5HZpx/Ah4coBH2c)
-### Download#2 SPaT data(22.69G) : [Download](http://gofile.me/5HZpx/czDPUbTgr)
-### Download#3 RSA data(41.15G)  : [Download](http://gofile.me/5HZpx/hLF1XZ6Dh)
-### Download#4 TIM data(5.34G)   : [Download](http://gofile.me/5HZpx/ISVd3ygzb)
+### Download#1 PVD Data(19.7M)   : [Download](http://gofile.me/5HZpx/Ah4coBH2c1)
+### Download#2 SPaT data(22.69G) : [Download](http://gofile.me/5HZpx/czDPUbTgr1)
+### Download#3 RSA data(41.15G)  : [Download](http://gofile.me/5HZpx/hLF1XZ6Dh1)
+### Download#4 TIM data(5.34G)   : [Download](http://gofile.me/5HZpx/ISVd3ygzb1)
 ※ **공유 데이터셋은 2022년 12월 8일 10시부터 20시까지 실증도로 내 RSU에서 계측되어 서버에 저장된 데이터임**  
 ※ 실증도로 환경 및 데이터셋에 관한 내용을 정리함
 
