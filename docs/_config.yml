@@ -20,14 +20,16 @@ author: Tae-Hyeong Kim
 ###############################################
 
 navbar-links:
-  About KIAPI: "aboutme"
+  About:
+    - Kiapi: "about_kiapi"
+    - Ourteam: "about_ourteam"
   Project:
-    - Fallback MRC: "fallbackMRC"
-    - Multi Agent: "multiagent"
-    - Learning Data: "learningdata"
+    - Fallback MRC: "project_fallbackMRC"
+    - Multi Agent: "project_multiagent"
+    - Learning Data: "project_learningdata"
   Parts:
-    - System Fusion: "systemfusion"
-    - Digital Twin: "digitaltwin"
+    - System Fusion: "parts_systemfusion"
+    - Digital Twin: "parts_digitaltwin"
   KIAPI Webpage: "http://www.kiapi.or.kr"
 
 ################
