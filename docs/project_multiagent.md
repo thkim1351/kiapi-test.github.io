@@ -26,12 +26,12 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
 | 인프라 | 수량 | 설명 |
 |:---------:|:--------:|--------------------------|
 | RSU | 18식 | 차량과 차량, 차량과 인프라 간 통신이 가능한 WAVE 통신 기지국 <br> - (상행) 일부 터널을 제외한 모든 구간 WAVE 통신 가능 <br> - (하행) 터널을 제외한 모든 구간 WAVE 통신 가능 |
-| 돌발상황검지기 | 3식 | 도로에서 발생하는 돌발상황(역주행, 정지차, 보행자, 지·정체 등) 검지(SAE J2735 - RSA) </br> - 합류로 분기로, 교통 정체 구간에 설치(김흥, 기세, 본리) </br> - C-ITS 서비스 중 3가지(합류로, 분기로, 교통 정체 구간) 제공 가능
-| 보행자검지기 | 2식 | 횡단보도 주변에서 발생하는 돌발상황(보행자 무단횡단 및 정상횡단 등) 검지 </br> - 유가사입구사거리, 휴양림입구사거리에 설치 |
-| 신호제어기 | 4식 | 신호등 주기 및 현시 정보를 차량에 제공(J2735 - SPaT) </br> - 유가입구사거리, 휴양림입구사거리, 수목원 3주차장, 수목원 2주차장에 설치 |
-| CCTV | 8식 | 시험차량 거동 정보 추적 및 녹화를 통한 영상 데이터 제공 </br> - 유가사입구사거리, 휴양림입구사거리에 설치 |
-| 측위보정기준국 | 1식 | DGPS 원리를 이용하여 실증도로 구간에서 정밀한 차량 위치 정보 제공 </br> - 테크노폴리스로 중간지점에 설치 |
-| RFID | 2식 | 시험 차량 식별 및 테스트 시작/종료 시점 정보 제공 </br> - 유가사입구사거리 및 휴양림입구사거리에 설치 |
+| 돌발상황검지기 | 3식 | 도로에서 발생하는 돌발상황(역주행, 정지차, 보행자, 지·정체 등) 검지(SAE J2735 - RSA) <br> - 합류로 분기로, 교통 정체 구간에 설치(김흥, 기세, 본리) <br> - C-ITS 서비스 중 3가지(합류로, 분기로, 교통 정체 구간) 제공 가능
+| 보행자검지기 | 2식 | 횡단보도 주변에서 발생하는 돌발상황(보행자 무단횡단 및 정상횡단 등) 검지 <br> - 유가사입구사거리, 휴양림입구사거리에 설치 |
+| 신호제어기 | 4식 | 신호등 주기 및 현시 정보를 차량에 제공(J2735 - SPaT) <br> - 유가입구사거리, 휴양림입구사거리, 수목원 3주차장, 수목원 2주차장에 설치 |
+| CCTV | 8식 | 시험차량 거동 정보 추적 및 녹화를 통한 영상 데이터 제공 <br> - 유가사입구사거리, 휴양림입구사거리에 설치 |
+| 측위보정기준국 | 1식 | DGPS 원리를 이용하여 실증도로 구간에서 정밀한 차량 위치 정보 제공 <br> - 테크노폴리스로 중간지점에 설치 |
+| RFID | 2식 | 시험 차량 식별 및 테스트 시작/종료 시점 정보 제공 <br> - 유가사입구사거리 및 휴양림입구사거리에 설치 |
 
 <img src="https://user-images.githubusercontent.com/85465084/206636026-c0faf0ff-6fd6-44a3-ad7e-f188941b2c34.PNG" width="850" height="330">  
 
@@ -64,8 +64,8 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
   |Steering_angle|integer  |1.5 deg      |INTEGER (-126..127)            |차량의 조향각 정보|
   |Brake	        |character|-	           |-	                             |브레이크 동작 여부|
   |Brake_pressure|integer	 |-	           |-	                             |브레이크 압력 정보|
-  |Transmission_state|integer|-          | 0x00 : Neutral </br> 0x01 : Parking </br> 0x02 : Drive </br> 0x03 : Rear | 차량 기어 변속 정보|
-  |Exterior_light|integer  |-            | 0 : Low-beam </br> 1 : High-beam </br> 2 : Left turn </br> 3 : Right turn </br> 4 : Hazard signal | 차량 외부등 상태 정보|
+  |Transmission_state|integer|-          | 0x00 : Neutral <br> 0x01 : Parking <br> 0x02 : Drive <br> 0x03 : Rear | 차량 기어 변속 정보|
+  |Exterior_light|integer  |-            | 0 : Low-beam <br> 1 : High-beam <br> 2 : Left turn <br> 3 : Right turn <br> 4 : Hazard signal | 차량 외부등 상태 정보|
   |rsu_id        |integer  |-            |-                              |rsu id|
   |created_time  |date     |-            |-                              |메시지 생성 시간|
   |rssi          |integer  |dm           |-                              |수신 신호 세기(강도) 정보|
@@ -83,7 +83,7 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
   |rsu_id         |integer |-            |-                              |rsu id|
   |intersection_id|integer	|-            |INTEGER (0..65535)             |교차로 id|
   |signal_group   |integer	|-            |INTEGER (0..255)	              |각 교차로의 신호등 정보|
-  |signal_state	  |integer |-	           |0 : 알수없음 or 에러 </br> 1 : 신호 없음 </br> 2, 3 : 적색 신호 </br> 4, 5, 6 : 녹색 신호 </br> 7, 8, 9 : 황색 신호 |	각 교차로 신호등의 신호현시 정보|
+  |signal_state	  |integer |-	           |0 : 알수없음 or 에러 <br> 1 : 신호 없음 <br> 2, 3 : 적색 신호 <br> 4, 5, 6 : 녹색 신호 <br> 7, 8, 9 : 황색 신호 |	각 교차로 신호등의 신호현시 정보|
   |remain time    |integer |-            |INTEGER (0..38001)             |다음 신호 변경까지의 잔여 시간|
   |created_time  |date     |-            |-                              |메시지 생성 시간|
 
@@ -99,7 +99,7 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
   |lod_id          |bigint  |-            |-                              |데이터 log id|
   |rsu_id          |integer |-            |-                              |rsu id|
   |detect_id	      |integer	|-    	       |INTEGER (1..65535)	            |돌발감지기에서 부여한 객체 id|
-  |detect_type	    |integer	|-	           |J2540(DE_ITIS) 참조	</br> - 258 : 지·정체 </br> - 380 : 돌발없음 </br> - 534 : 정지차량 </br> - 1281 : 낙하물 </br> - 1286 : 보행자 </br> - 1793 : 역주행차량 </br> - 2052 : 서행|도로 위 돌발유형 정보|
+  |detect_type	    |integer	|-	           |J2540(DE_ITIS) 참조	<br> - 258 : 지·정체 <br> - 380 : 돌발없음 <br> - 534 : 정지차량 <br> - 1281 : 낙하물 <br> - 1286 : 보행자 <br> - 1793 : 역주행차량 <br> - 2052 : 서행|도로 위 돌발유형 정보|
   |detect_latitude |integer |$10^{-7}$ deg|	INTEGER (-900000000..900000001)|객체의 위도 정보|
   |detect_longitude|integer |$10^{-7}$ deg|	INTEGER (-179999999..180000001)|객체의 경도 정보|
   |detect_velocity |integer |0.02 m/s     |	INTEGER (0..8191)              |객체의 속도 정보|
@@ -117,7 +117,7 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
   |:-----:|:-----: |:------:|:---------|------------------ |  
   |lod_id            |bigint   |-            |-                              |데이터 log id|
   |rsu_id            |integer  |-            |-                              |rsu id|
-  |frame_type        |integer  |-            |0 : Unknown </br> 1 : 주의(Advisory) </br> 2 : 도로 표지판 </br> 3 : 상업 간판 | 주변 위험 요소에 대한 프레임 유형|
+  |frame_type        |integer  |-            |0 : Unknown <br> 1 : 주의(Advisory) <br> 2 : 도로 표지판 <br> 3 : 상업 간판 | 주변 위험 요소에 대한 프레임 유형|
   |furtherinfo_id  	 |integer  |-            |-                              |다른 메시지에 대한 링크 번호|
   |duration          |integer  |minute       |INTEGER (0..32000)             |생성된 메시지의 지속 시간(최대 22.2일)|
   |priority	         |integer	 |-	           |INTEGER (0..255)	              |경고 메시지 내 정보 우선순위
@@ -129,7 +129,7 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
   |exit_latitude     |character|$10^{-7}$ deg|INTEGER (-900000000..900000001)|터널, 교차로 등의 출구 위도 정보|
   |exit_direction    |integer  |0.00549 deg  |INTEGER (0..65535)	            |터널, 교차로 등의 출구 방향 정보|
   |exit_radius       |integer  |-	           |INTEGER (0..4095)	             |터널, 교차로 등의 출구 반지름 정보|
-  |itiscode          |integer  |-            |J2540(DE_ITIS) 참조	</br> - 8032 : intersection </br> - 8028 : crossover </br> - 8229 : bridge </br> - 8233 : tunnel |ITIS 도로 유형 코드
+  |itiscode          |integer  |-            |J2540(DE_ITIS) 참조	<br> - 8032 : intersection <br> - 8028 : crossover <br> - 8229 : bridge <br> - 8233 : tunnel |ITIS 도로 유형 코드
   |advisory          |character|-            |J2540(DE_ITIS) 참조             |ITIS 도로 유형 텍스트|
   |created_time      |date     |-            |-                               |메시지 생성 시간|
 
