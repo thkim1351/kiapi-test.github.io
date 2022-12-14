@@ -21,9 +21,9 @@ author: Tae-Hyeong Kim
 
 navbar-links:
   About KIAPI: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Project:
+    - Fallback MRC: "fallbackMRC"
+    - Learning Data: "learningdata"
   Author's home: "https://deanattali.com"
 
 ################
