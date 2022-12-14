@@ -132,15 +132,3 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
   |itiscode          |integer  |-            |J2540(DE_ITIS) 참조	<br> - 8032 : intersection <br> - 8028 : crossover <br> - 8229 : bridge <br> - 8233 : tunnel |ITIS 도로 유형 코드
   |advisory          |character|-            |J2540(DE_ITIS) 참조             |ITIS 도로 유형 텍스트|
   |created_time      |date     |-            |-                               |메시지 생성 시간|
-
-
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
