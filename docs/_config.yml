@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Autonomous Vehicle Team
+title: KIAPI Autonomous Vehicle Team
 
 # Your name to show in the footer
 author: Tae-Hyeong Kim
@@ -28,7 +28,7 @@ navbar-links:
   Parts:
     - System Fusion: "systemfusion"
     - Digital Twin: "digitaltwin"
-  Author's home: "https://deanattali.com"
+  KIAPI Webpage: "http://www.kiapi.or.kr"
 
 ################
 # --- Logo --- #
@@ -98,7 +98,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "thkim1351.github.io/kiapi-test.github.io/"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
