@@ -55,8 +55,8 @@ $ 10^{-7} $
   |:-----:|:-----:|:------:|:---------|------------------|  
   |lod_id         |bigint  |-            |-                              |데이터 log id|
   |obu_id        |integer  |-            |-                              |obu id|
-  |Latitude      |integer  |$$10^{-7}$$ deg|INTEGER (-900000000..900000001)|차량의 위도 정보|
-  |Longitude     |integer  |$$10^{-7}$$ deg|INTEGER (-179999999..180000001)|차량의 경도 정보|
+  |Latitude      |integer  |$ 10^{-7} $ deg|INTEGER (-900000000..900000001)|차량의 위도 정보|
+  |Longitude     |integer  |$ 10^{-7} $ deg|INTEGER (-179999999..180000001)|차량의 경도 정보|
   |Elevation     |integer  |0.1 m        |INTEGER (-4096..61439)         |차량의	고도 정보|
   |Velocity	     |integer  |0.02 m/s	    |INTEGER (0..8191)              |차량의	속도 정보|
   |Accel_lon     |integer  |0.01 $m/s^2$ |	INTEGER (-2000..2001)         |종방향 가속도 정보|
