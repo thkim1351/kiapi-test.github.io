@@ -49,7 +49,7 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
 
   ##### obu_state 구조 정의
 
-![table1](/assets/img/project_multiagent/table1.png)
+![table1](/assets/img/project_multiagent/table1.png){: .center}
 
 #### 2) SPaT data(rsu_signal.csv)
 
@@ -58,7 +58,7 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
 
   ##### rsu_signal 구조 정의
 
-![table2](/assets/img/project_multiagent/table2.png)
+![table2](/assets/img/project_multiagent/table2.png){: .center}
 
 #### 3) RSA data(rsu_accident.csv)
 
@@ -67,11 +67,11 @@ subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스�
 
   ##### rsu_accident 구조 정의
 
-![table3](/assets/img/project_multiagent/table3.png)
+![table3](/assets/img/project_multiagent/table3.png){: .center}
   
 #### 4) TIM data(rsu_tim.csv)
 
 * 교통정보, 도로운영 정보 등 다양한 유형의 정보를 교통정보센터(관제센터, 기지국 등)를 통해 전달함
 * 실증도로 내 구축된 RSU에 대한 정보를 제공함
 
-![table4](/assets/img/project_multiagent/table4.png)
+![table4](/assets/img/project_multiagent/table4.png){: .center}
