@@ -1,16 +1,20 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About KIAPI
+subtitle: Korea Intelligent Automotive Parts Promotion Institute
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+### Purpose of Establishment
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+<img src="aasets/img/about/kiapi_location.png" width="80%" height="85%" align="center">
 
-What else do you need?
+[KIAPI](http://www.kiapi.or.kr) will support evaluation of parts of autonomous vehicles and ADAS for local auto parts suppliers with limited development and continuous growth due to changes in internal and external condition, and to become a necessary facility in the local auto parts industry.
+Contributing to the strengthening and development of international advanced competitiveness of high premium auto parts industry and related industries through infrastructure construction and efficient management and operation to foster the rights of auto parts makers and to foster ITS-based automotive parts base valley.
 
-### My story
+### Proving Ground
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Location
+- 201, Gukgasandanseo-ro, Guji-myeon, Dalseong-gun, Daegu, 43011, Republic of Korea.
+
+Scale
+- Test track of 394,565m² and operation of related euipment.
