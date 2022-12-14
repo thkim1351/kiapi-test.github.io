@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Learning Data
+subtitle: 이종 차량 자율주행 학습 데이터 상호 활용을 위한 주행환경 데이터 변환 및 데이터 검증 기술 개발
 ---
 
 My name is Inigo Montoya. I have the following qualities:
