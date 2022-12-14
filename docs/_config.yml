@@ -22,7 +22,7 @@ author: Tae-Hyeong Kim
 navbar-links:
   About:
     - Kiapi: "about_kiapi"
-    - Ourteam: "about_ourteam"
+    - Our Team: "about_ourteam"
   Project:
     - Fallback MRC: "project_fallbackMRC"
     - Multi Agent: "project_multiagent"
