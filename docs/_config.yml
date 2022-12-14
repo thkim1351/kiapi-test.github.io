@@ -23,7 +23,11 @@ navbar-links:
   About KIAPI: "aboutme"
   Project:
     - Fallback MRC: "fallbackMRC"
+    - Multi Agent: "multiagent"
     - Learning Data: "learningdata"
+  Parts:
+    - System Fusion: "systemfusion"
+    - Digital Twin: "digitaltwin"
   Author's home: "https://deanattali.com"
 
 ################

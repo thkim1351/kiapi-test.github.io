@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Fallback MRC
-subtitle: 엣지 기반 자율주행 기능의 Fall back MRC에 따른 운영권 SW 안전성 및 대응방안 검증 기술 개발
+title: Multi Agent
+subtitle: 엣지연계 도심형 자율주행 서비스 검증을 위한 테스트 시나리오 생성 및 멀티에이전트기반 시뮬레이션SW 기술개발
 ---
 
 My name is Inigo Montoya. I have the following qualities:
