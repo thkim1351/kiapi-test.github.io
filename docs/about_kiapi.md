@@ -11,7 +11,8 @@ Contributing to the strengthening and development of international advanced comp
 
 ![kiapi_main_building](/assets/img/about_kiapi/kiapi_main_building.PNG)
 
-
+<br/>
+<br/>
 
 ## Proving Ground
 
