@@ -26,7 +26,7 @@ navbar-links:
   Project:
     - Fallback MRC: "project_fallbackMRC"
     - Multi Agent: "project_multiagent"
-    - Learning Data: "project_learningdata"
+    - Learning Data: "https://thkim1351.github.io/kiapi-learn-data.github.io/#"
   Parts:
     - System Fusion: "parts_systemfusion"
     - Digital Twin: "parts_digitaltwin"
